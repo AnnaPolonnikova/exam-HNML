@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.site{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background: url(../images/nerds-index-slide1.png) no-repeat right top 120px #eeeeee;
+    height: 540px;
+}
+.header_wraper{
+    display: grid;
+    grid-template-columns: 350px 670px 170px;
+    padding-top: 75px;
+    margin-left: 140px;
+}
+.nav_items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav_item{
+margin-top:30px;
+margin-left: 57px;
+font-size: 16px;
+text-transform: uppercase;
+}
+.header_btn{
+    border: none;
+    display: flex;
+    margin-top:30px;
+}
+.btn_icon>a{
+    height: 17px;
+    width: 15px;
+   margin-right: 25px;
+    color:#a6a6a6;
+}
+.btn_title{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header_text{
+    width: 380px;
+    margin-top: 80px;
+}
+.header_text_title{
+    font-size: 55px;
+    margin-bottom: 29px;
+    line-height: 50px;
+}
+.header_text_description{
+    font-size: 16px;
+    color: #283136;
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-bottom: 45px;
+}
+.header_text_btn{
+    height: 48px;
+    width: 240px;
+    background-color: #fb565a;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+.advantages{
+    display: flex;
+}
+.advantages_red,
+.advantages_green,
+.advantages_yellow{
+    width: 300px;
+    margin-top: 82px;
+    margin-bottom: 78px;
+}
+.advantages_red,
+.advantages_green{
+    margin-right: 100px;
+}
+.advantages_title{
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.advantages_description{
+    font-size: 16px;
+    color: #283136;
+    margin-bottom: 38px;
+    
+}
+.btn_red,
+.btn_green,
+.btn_yellow{
+    height:47px ;
+    width:160px ;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+.btn_red{
+background-color:#fb565a ;
+}
+
+.btn_green{
+    background-color: #00ca74;
+}
+.btn_yellow{
+    background-color: #efc84a;
+}
+
+
+hr/{
+    width: 3px;
+    color: #eeeeee;
+}
+.portfolio{
+    display:flex;
+   
+   
+}
+.portfolio_description{
+    margin-top: 80px;
+    margin-right: 140px;
+}
+.description_title{
+    font-size: 40px;
+    margin-bottom: 38px;
+}
+.description_subtitle{
+    font-size: 16px;
+   color: #41484c;
+    margin-bottom: 38px;
+    line-height: 17px;
+}
+.description_text{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+.description_item{
+    font-size: 16px;
+    color: #41484c;
+    margin-bottom: 35px;
+}
+
+.portfolio_advantage{
+   
+    margin-top: 37px;
+}
+.portfolio-img{
+    margin-bottom: 32px;
+}
+.advantage_figure{
+    display: flex;
+}
+.advantage-text{
+    width: 100px;
+    margin-right: 19px;
+}
+.advantage_title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.advantage_subtitle{
+    font-size:16px ;
+    color: #41484c;
+
+}
+.promo_image{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.map{
+    margin-top: 79px;
+}
+iframe{
+    width: 100%;
+    height: 414px;
+    position: relative;
+}
+.map_information{
+    height: 307px;
+    width: 319px;
+    background-color: white;
+    position: absolute;
+    top: 1897px;
+    left: 140px;
+}
+.map_title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 33px;
+    margin-left: 50px;
+}
+.map_description,
+.map_phone{
+    font-size: 16px;
+    color: #747474;
+    margin-left: 50px;
+}
+.map_description{
+    margin-bottom: 26px;
+}
+.map_btn{
+    height:48px ;
+    width: 220px;
+    background-color: #fb565a;
+    border: none;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer_wraper{
+    display: flex;
+    margin-top: 34px;
+    margin-bottom: 74px;
+
+}
+.footer_icon{
+    display: flex;
+    margin-right: auto;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 50px;
+    margin-left: 11px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+a{
+    color: white;
+}
+.footer_title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.footer_description{
+    color: #444444;
+    font-size: 16px;
+}
