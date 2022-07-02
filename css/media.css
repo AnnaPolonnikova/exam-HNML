@@ -23,6 +23,9 @@
 
 }
 @media (max-width:768px){
+    .container{
+        width: 700px;
+    }
     .header_wraper{
         display: flex;
        
@@ -40,6 +43,31 @@
     #nav_toggle:checked ~ ul{
         display: flex;
         flex-direction: column;
-      
     }
+    .nav_items{
+        background-color: rgba(0, 0, 0, .4);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -370px;
+        padding: 10% 5%;
+    }
+    .promo_image{
+       flex-wrap: wrap;
+    }
+    .image::after{
+       
+        display: none;
+        
+       
+    }
+    .map_information{
+        
+       top: 2950px;
+        left:60px;
+    }
+    .footer_text{
+       margin-left: 20px;
+    }
+
 }
