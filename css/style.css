@@ -19,6 +19,11 @@
     padding-top: 75px;
     margin-left: 140px;
 }
+.nav_toggle{
+    display: none;
+    border: 0;
+    background: none;
+}
 .nav_items{
     display: flex;
     list-style: none;

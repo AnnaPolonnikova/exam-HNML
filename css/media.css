@@ -1,0 +1,45 @@
+@media (max-width:1024px){
+    .container{
+        width: 950px;
+        
+    }
+    .header_wraper{
+        display: grid;
+        grid-template-columns: 150px 550px 170px;
+        padding-top: 75px;
+        margin-left: 80px;
+    }
+    .nav_item{
+        margin-left: 50px;
+    }
+    .advantages{
+        flex-wrap: wrap;
+    }
+    .map_information{
+        
+        top: 2450px;
+        left:60px;
+    }
+
+}
+@media (max-width:768px){
+    .header_wraper{
+        display: flex;
+       
+        padding-top: 75px;
+        margin-left: 80px;
+    }
+    .nav_item{
+        margin-left: 10px;
+        display: none;
+    }
+    .nav_toggle{
+        display:inline-block;
+        
+    }
+    #nav_toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+      
+    }
+}
