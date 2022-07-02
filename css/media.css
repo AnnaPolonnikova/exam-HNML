@@ -85,3 +85,14 @@
         flex-wrap: wrap;
     }
 }
+@media(max-width:375px){
+    .container{
+        width: 340px;
+    }
+    .header_text{
+        width: 350px;
+    }
+    .header_text_title{
+        font-size: 45px;
+    }
+}
