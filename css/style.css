@@ -123,7 +123,7 @@ background-color:#fb565a ;
 
 
 hr/{
-    width: 3px;
+    width: 2px;
     color: #eeeeee;
 }
 .portfolio{
@@ -196,6 +196,17 @@ hr/{
     display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+}
+.image::after{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-color: #eeeeee;
+    position: absolute;
+    bottom: 55px;
+   
 }
 .map{
     margin-top: 79px;
