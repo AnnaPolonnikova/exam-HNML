@@ -96,3 +96,33 @@
         font-size: 45px;
     }
 }
+@media(max-width:320px){
+    .container{
+        width: 300px;
+    }
+    .header_wraper{
+        display: block; 
+    }
+    .header{
+        
+        height: 700px;
+    }
+    .header_text{
+        width: 300px;
+    }
+    .portfolio-img{
+       
+        width: 300px;
+    }
+    .description_text{
+        font-size: 14px;
+    }
+    .advantage_figure{
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .map_information{
+        
+        top: 4900px;
+         left:10px;
+}
