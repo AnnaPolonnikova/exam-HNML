@@ -34,25 +34,27 @@
     }
     .nav_item{
         margin-left: 10px;
+        
+    }
+    .nav_items{
         display: none;
     }
     .nav_toggle{
         display:inline-block;
         
     }
-    #nav_toggle:checked ~ nav_items{
+    #nav_toggle:checked ~ .nav_items{
         display: flex;
         flex-direction: column;
-    }
-    .nav_items{
         background-color: rgba(0, 0, 0, .4);
         position: fixed;
         top: 0;
         bottom: 0;
         left: 0;
-        
+        color: white;
         padding: 10% 5%;
     }
+    
     .promo_image{
        flex-wrap: wrap;
     }
