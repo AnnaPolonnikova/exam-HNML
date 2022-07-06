@@ -227,19 +227,20 @@ hr/{
    
 }
 .map{
+    position: relative;
     margin-top: 79px;
 }
 iframe{
     width: 100%;
     height: 414px;
-    position: relative;
+    
 }
 .map_information{
     height: 307px;
     width: 319px;
     background-color: white;
     position: absolute;
-    top: 1897px;
+    top: 50px;
     left: 140px;
 }
 .map_title{
